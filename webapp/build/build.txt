@@ -1,0 +1,6 @@
+To build, execute this command line :
+
+node r.js -o app.build.js
+
+Nodejs must be installed on the system:
+http://nodejs.org/

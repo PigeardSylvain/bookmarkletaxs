@@ -1,0 +1,1 @@
+javascript:var%20w=window;d=document;if(typeof(w.easeBookmarklet)!="undefined"){w.easeBookmarklet.toggleDisplay()}else{(function(){var%20s=d.createElement("script");s.id="easeBookmarklet";s.src="http://accesscode.fr/webapp-build/vendor/require-jquery.js?";s.setAttribute("data-main","http://accesscode.fr/webapp-build/main.js");d.body.appendChild(s)})()}

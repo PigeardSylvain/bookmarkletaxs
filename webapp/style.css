@@ -1,0 +1,6 @@
+/* Main CSS file */
+@import "global.css";
+@import "menu/menu.css";
+@import "menu/rateWidget/rateWidget.css";
+@import "tools/inspector/style.css";
+@import "tools/autoAudit/style.css";

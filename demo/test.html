@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title> Test ARIA </title>
+	<style>
+		*:focus {
+			background-color: #f00;
+		}
+
+		.focusable {
+			border: 1px solid green;
+		}
+	</style>
+</head>
+
+<body>
+	<!-- Banner -->
+	<div role="banner">En tete de la page</div>
+
+	<!-- Navigation -->
+	<div role="navigation">
+		<ul><li><a href="">Accueil</a></li><li><a href="">Contact</a></li></ul>
+	</div>
+
+	<div role="main">
+		<div tabindex="0" class="focusable">
+			Contenu principale blablabla
+		</div>
+
+		<br>
+	<img src="logo.gif">
+		<a href="test" role="checkbox" aria-checked="mixed">lien 1</a><br>
+		<a href="test" tabindex="-1">lien 2</a><br>
+		<a href="test">lien 3</a><br>	
+	</div>
+</body>
+
+</html>

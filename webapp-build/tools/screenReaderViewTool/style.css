@@ -1,0 +1,178 @@
+body {
+	padding-top: 3em;
+	background-color: #333;
+}
+* {	
+    font-family: "Arial";
+    font-size: 1em;
+}
+.easeBM_INFO {
+	background-color: #ffc8a8;
+}
+.easeBM_CONTAINER {
+	background: #fff;
+}
+pre, dl {
+	margin: 0.2em;
+}
+.IMG, .A, .UL, .TABLE, .INPUT, .BUTTON, .ARIA{
+	padding: 0 0.4em;
+}
+.H1,.H2,.H3,.H4,.H5,.H6 {	
+	background-color: #88aaff;
+	display: block;
+	width: 100%;
+	padding-left: 0.5em;
+	margin: 0.5em 0;
+}
+.ARIA, .SECTION, .NAV, .ASIDE, .FOOTER, .IFRAME {
+	background-color: #faf;	
+}
+.IMG {
+	background-color: #88ff88;	
+}
+.TABLE, .CAPTION, .SUMMARY {
+	background-color: #aaa;
+}
+.A {
+	background-color: #f8f888;	
+}
+.DIV, .P, .B, .I, .STRONG, .EM, .FIELDSET, .FORM, .HR {
+	display: none;
+}
+.UL, .OL {
+    background-color: #AFF;
+}
+.INPUT, .BUTTON, .SELECT, .TEXTAREA, .LEGEND {
+    background-color: #F88;
+}
+.IMG, .A, .UL, .TABLE, .H1, .H2, .H3, .H4, .H5, .H6, .UL, .OL, .BUTTON, .INPUT, .SELECT {
+	cursor: help;
+}
+.orangeLogo {
+	background-image: url("../../images/logo.gif");
+	background-repeat: no-repeat;
+	background-size: 2em;
+	height: 2em;
+	width: 2em;
+	float: left;
+	margin: 0.25em 1em 0.25em 1em;
+	padding: 0;
+}
+.header {
+	font-weight: bold;
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 2.5em;
+	width: 100%;
+	line-height: 2.5em;
+	-moz-box-shadow: 0 0.2em 0.5em 0 #111;
+	-webkit-box-shadow: 0 0.2em 0.5em 0 #111;
+	box-shadow: 0 0.2em 0.5em 0 #111;
+	z-index: 100;
+	color: #fff;
+}
+.hGrad {
+	background: #4C4C4C;
+	background: -moz-linear-gradient(top,  #272727 0%, #4C4C4C 100%); 
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#272727), color-stop(100%,#4C4C4C)); 
+	background: -webkit-linear-gradient(top,  #272727 0%,#4C4C4C 100%); 	
+	background: linear-gradient(to bottom,  #272727 0%,#4C4C4C 100%); 
+}
+a, a:active, a:hover, a:visited {
+	text-decoration: none;
+	color: #fff;
+}
+.header a {	
+	display: inline-block;
+	width: 11em;
+	outline: 0;
+	text-align: center;
+}
+.header a:focus,
+.header a:hover,
+.header a:active {
+	background-color: #212121;
+}
+.easeBM_CONTAINER {
+    background-color: #fff;
+    -webkit-border-radius: 0.2em;
+	-moz-border-radius: 0.2em;
+	border-radius: 0.2em;
+    padding: 0.4em;
+}
+.easeBM_listContainer {
+	display: none;
+	background: rgba(0,0,0,0.3);
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 100;
+}
+.easeBM_list {
+	display: none;
+	position: fixed;
+	background-color: #555;
+	color: #eee;
+	width: 24em;
+	height: 30em;
+	padding: 0.5em;
+	margin-left: -12em;
+	top: 5em;
+	left: 50%;	
+	-webkit-border-radius: 0.5em;
+	-moz-border-radius: 0.5em;
+	border-radius: 0.5em;
+	z-index: 150;
+}
+.easeBM_list .title {
+	width: 100%;
+	height: 2em;
+	text-align: center;
+}
+.easeBM_list .toolbar {
+	text-align: center;
+	margin-top: 0.6em;
+}
+.easeBM_list .toolbar button::-moz-focus-inner {
+	border: 0;
+}
+.easeBM_list .toolbar button {
+	background: #888;
+    border: 0;
+    -webkit-border-radius: 0.2em;
+	-moz-border-radius: 0.2em;
+	border-radius: 0.2em;    
+    height: 2em;
+    width: 6em;	
+}
+.easeBM_list .toolbar button:hover,
+.easeBM_list .toolbar button:focus {
+	background: #aaa;
+}
+.easeBM_listContent {
+	overflow-y: auto;
+	border-radius: 0.2em;
+	background-color: #3a3a3a;
+	padding: 0.2em;
+	height: 25em;	
+}
+.easeBM_listContent select {
+	background: transparent;
+	width: 100%;
+	height: 100%;
+	border: 0;
+	color: #ccc;
+}
+option:checked {
+	background-color: #333 !important;
+}
+.easeBM_list .title {
+	outline: none;
+}
+.highlight {
+	outline: dotted 0.2em #f00;
+}

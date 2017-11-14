@@ -1,0 +1,224 @@
+
+#easeBM_inspector .easeBM_pageContent {
+	padding: 0.5em;
+	min-width: 56em;
+}
+#easeBM_inspector .easeBM_pageContent select,
+#easeBM_inspector .easeBM_pageContent option {
+	background: #3a3a3a !important;
+	color: #ccc !important;	
+	font-family: inherit !important;
+    font-size: inherit !important;
+    font-weight: inherit !important;
+}
+#easeBM_inspector .easeBM_pageContent select {
+    border: 0.2em solid #555 !important;
+}
+#easeBM_inspectorTypeSelect {
+    height: 8.2em;
+    height: 11em;
+}
+#easeBM_inspector .easeBM_column {
+    height: 11em;
+    float: left;
+}
+#easeBM_inspector .easeBM_column select,
+#easeBM_inspector .easeBM_column button {
+    float: left;    
+}
+#easeBM_inspectorTypeSelect,
+#easeBM_inspector .easeBM_toolbar {
+    float: left;
+}
+#easeBM_inspector .easeBM_toolbar {    
+    margin-left: 0.5em;
+}
+#easeBM_inspector .easeBM_toolbar button {
+    width: 8em;
+    margin-bottom: 0.5em;
+    clear: both;
+}
+#easeBM_inspectorElementSelect {	
+    height: 11em;
+	width: 30em;
+	margin-left: 0.5em;
+}
+#easeBM_inspectorDisplayButton:before,
+#easeBM_inspectorDisplayButton:after {
+    content: ""!important;
+    display: none!important;
+}
+.easeBM_inspector_all h1:before, .easeBM_inspector_header h1:before { content: "<h1>" !important; }
+.easeBM_inspector_all h2:before, .easeBM_inspector_header h2:before { content: "<h2>" !important; }
+.easeBM_inspector_all h3:before, .easeBM_inspector_header h3:before { content: "<h3>" !important; }
+.easeBM_inspector_all h4:before, .easeBM_inspector_header h4:before { content: "<h4>" !important; }
+.easeBM_inspector_all h5:before, .easeBM_inspector_header h5:before { content: "<h5>" !important; }
+.easeBM_inspector_all h6:before, .easeBM_inspector_header h6:before { content: "<h6>" !important; }
+.easeBM_inspector_all h1:after, .easeBM_inspector_header h1:after { content: "</h1>" !important; }
+.easeBM_inspector_all h2:after, .easeBM_inspector_header h2:after { content: "</h2>" !important; }
+.easeBM_inspector_all h3:after, .easeBM_inspector_header h3:after { content: "</h3>" !important; }
+.easeBM_inspector_all h4:after, .easeBM_inspector_header h4:after { content: "</h4>" !important; }
+.easeBM_inspector_all h5:after, .easeBM_inspector_header h5:after { content: "</h5>" !important; }
+.easeBM_inspector_all h6:after, .easeBM_inspector_header h6:after { content: "</h6>" !important; }
+.easeBM_inspector_all h1:before, .easeBM_inspector_header h1:before,
+.easeBM_inspector_all h2:before, .easeBM_inspector_header h2:before,
+.easeBM_inspector_all h3:before, .easeBM_inspector_header h3:before,
+.easeBM_inspector_all h4:before, .easeBM_inspector_header h4:before,
+.easeBM_inspector_all h5:before, .easeBM_inspector_header h5:before,
+.easeBM_inspector_all h6:before, .easeBM_inspector_header h6:before,
+.easeBM_inspector_all h1:after, .easeBM_inspector_header h1:after,
+.easeBM_inspector_all h2:after, .easeBM_inspector_header h2:after,
+.easeBM_inspector_all h3:after, .easeBM_inspector_header h3:after,
+.easeBM_inspector_all h4:after, .easeBM_inspector_header h4:after,
+.easeBM_inspector_all h5:after, .easeBM_inspector_header h5:after,
+.easeBM_inspector_all h6:after, .easeBM_inspector_header h6:after {
+    background: none repeat scroll 0 0 #88AAFF !important;    
+}
+.easeBM_inspector_all ul:before, .easeBM_inspector_list ul:before { content: "<ul>" !important; }
+.easeBM_inspector_all ol:before, .easeBM_inspector_list ol:before { content: "<ol>" !important; }
+.easeBM_inspector_all li:before, .easeBM_inspector_list li:before { content: "<li>" !important; }
+.easeBM_inspector_all ul:after, .easeBM_inspector_list ul:after { content: "</ul>" !important; }
+.easeBM_inspector_all ol:after, .easeBM_inspector_list ol:after { content: "</ol>" !important; }
+.easeBM_inspector_all li:after, .easeBM_inspector_list li:after { content: "</li>" !important; }
+.easeBM_inspector_all ul:before, .easeBM_inspector_list ul:before,
+.easeBM_inspector_all ol:before, .easeBM_inspector_list ol:before,
+.easeBM_inspector_all li:before, .easeBM_inspector_list li:before,
+.easeBM_inspector_all ul:after, .easeBM_inspector_list ul:after,
+.easeBM_inspector_all ol:after, .easeBM_inspector_list ol:after,
+.easeBM_inspector_all li:after, .easeBM_inspector_list li:after {
+	background: none repeat scroll 0 0 #AAFFFF !important;    	
+}
+.easeBM_inspector_all form:before, .easeBM_inspector_form form:before { content: "<form>" !important; }
+.easeBM_inspector_all form:after, .easeBM_inspector_form form:after { content: "</form>" !important; }
+.easeBM_inspector_all input:before, .easeBM_inspector_form input:before { content: "<input>" !important; }
+.easeBM_inspector_all input:after, .easeBM_inspector_form input:after { content: "</input>" !important; }
+.easeBM_inspector_all label:before, .easeBM_inspector_form label:before { content: "<label>" !important; }
+.easeBM_inspector_all label:after, .easeBM_inspector_form label:after { content: "</label>" !important; }
+.easeBM_inspector_all fieldset:before, .easeBM_inspector_form fieldset:before { content: "<fieldset>" !important; }
+.easeBM_inspector_all fieldset:after, .easeBM_inspector_form fieldset:after { content: "</fieldset>" !important; }
+.easeBM_inspector_all optgroup:before, .easeBM_inspector_form optgroup:before { content: "<optgroup>" !important; }
+.easeBM_inspector_all optgroup:after, .easeBM_inspector_form optgroup:after { content: "</optgroup>" !important; }
+.easeBM_inspector_all legend:before, .easeBM_inspector_form legend:before { content: "<legend>" !important; }
+.easeBM_inspector_all legend:after, .easeBM_inspector_form legend:after { content: "</legend>" !important; }
+.easeBM_inspector_all textarea:before, .easeBM_inspector_form textarea:before { content: "<textarea>" !important; }
+.easeBM_inspector_all textarea:after, .easeBM_inspector_form textarea:after { content: "</textarea>" !important; }
+.easeBM_inspector_all form:before, .easeBM_inspector_form form:before,
+.easeBM_inspector_all form:after, .easeBM_inspector_form form:after,
+.easeBM_inspector_all input:before, .easeBM_inspector_form input:before,
+.easeBM_inspector_all input:after, .easeBM_inspector_form input:after,
+.easeBM_inspector_all label:before, .easeBM_inspector_form label:before,
+.easeBM_inspector_all label:after, .easeBM_inspector_form label:after,
+.easeBM_inspector_all fieldset:before, .easeBM_inspector_form fieldset:before,
+.easeBM_inspector_all fieldset:after, .easeBM_inspector_form fieldset:after,
+.easeBM_inspector_all optgroup:before, .easeBM_inspector_form optgroup:before,
+.easeBM_inspector_all optgroup:after, .easeBM_inspector_form optgroup:after,
+.easeBM_inspector_all legend:before, .easeBM_inspector_form legend:before,
+.easeBM_inspector_all legend:after, .easeBM_inspector_form legend:after {
+	background: none repeat scroll 0 0 #FF8888 !important;
+}
+.easeBM_inspector_all table:before, .easeBM_inspector_table table:before { content: "<table>" !important; }
+.easeBM_inspector_all table:after, .easeBM_inspector_table table:after { content: "</table>" !important; }
+.easeBM_inspector_all caption:before, .easeBM_inspector_table caption:before { content: "<caption>" !important; }
+.easeBM_inspector_all caption:after, .easeBM_inspector_table caption:after { content: "</caption>" !important; }
+.easeBM_inspector_all summary:before, .easeBM_inspector_table summary:before { content: "<summary>" !important; }
+.easeBM_inspector_all summary:after, .easeBM_inspector_table summary:after { content: "</summary>" !important; }
+.easeBM_inspector_all thead:before, .easeBM_inspector_table thead:before { content: "<thead>" !important; }
+.easeBM_inspector_all thead:after, .easeBM_inspector_table thead:after { content: "</thead>" !important; }
+.easeBM_inspector_all tfoot:before, .easeBM_inspector_table tfoot:before { content: "<tfoot>" !important; }
+.easeBM_inspector_all tfoot:after, .easeBM_inspector_table tfoot:after { content: "</tfoot>" !important; }
+.easeBM_inspector_all tbody:before, .easeBM_inspector_table tbody:before { content: "<tbody>" !important; }
+.easeBM_inspector_all tbody:after, .easeBM_inspector_table tbody:after { content: "</tbody>" !important; }
+.easeBM_inspector_all table:before, .easeBM_inspector_table table:before,
+.easeBM_inspector_all table:after, .easeBM_inspector_table table:after,
+.easeBM_inspector_all caption:before, .easeBM_inspector_table caption:before,
+.easeBM_inspector_all caption:after, .easeBM_inspector_table caption:after,
+.easeBM_inspector_all summary:before, .easeBM_inspector_table summary:before,
+.easeBM_inspector_all summary:after, .easeBM_inspector_table summary:after,
+.easeBM_inspector_all thead:before, .easeBM_inspector_table thead:before,
+.easeBM_inspector_all thead:after, .easeBM_inspector_table thead:after,
+.easeBM_inspector_all tfoot:before, .easeBM_inspector_table tfoot:before,
+.easeBM_inspector_all tfoot:after, .easeBM_inspector_table tfoot:after,
+.easeBM_inspector_all tbody:before, .easeBM_inspector_table tbody:before,
+.easeBM_inspector_all tbody:after, .easeBM_inspector_table tbody:after {
+	background: none repeat scroll 0 0 #888 !important;
+}
+.easeBM_inspector_all nav:before, .easeBM_inspector_html5 nav:before { content: "<nav>" !important; }
+.easeBM_inspector_all nav:after, .easeBM_inspector_html5 nav:after { content: "</nav>" !important; }
+.easeBM_inspector_all section:before, .easeBM_inspector_html5 section:before { content: "<section>" !important; }
+.easeBM_inspector_all section:after, .easeBM_inspector_html5 section:after { content: "</section>" !important; }
+.easeBM_inspector_all header:before, .easeBM_inspector_html5 header:before { content: "<header>" !important; }
+.easeBM_inspector_all header:after, .easeBM_inspector_html5 header:after { content: "</header>" !important; }
+.easeBM_inspector_all footer:before, .easeBM_inspector_html5 footer:before { content: "<footer>" !important; }
+.easeBM_inspector_all footer:after, .easeBM_inspector_html5 footer:after { content: "</footer>" !important; }
+.easeBM_inspector_all banner:before, .easeBM_inspector_html5 banner:before { content: "<banner>" !important; }
+.easeBM_inspector_all banner:after, .easeBM_inspector_html5 banner:after { content: "</banner>" !important; }
+.easeBM_inspector_all aside:before, .easeBM_inspector_html5 aside:before { content: "<aside>" !important; }
+.easeBM_inspector_all aside:after, .easeBM_inspector_html5 aside:after { content: "</aside>" !important; }
+.easeBM_inspector_all article:before, .easeBM_inspector_html5 article:before { content: "<article>" !important; }
+.easeBM_inspector_all article:after, .easeBM_inspector_html5 article:after { content: "</article>" !important; }
+.easeBM_inspector_all figure:before, .easeBM_inspector_html5 figure:before { content: "<figure>" !important; }
+.easeBM_inspector_all figure:after, .easeBM_inspector_html5 figure:after { content: "</figure>" !important; }
+.easeBM_inspector_all details:before, .easeBM_inspector_html5 details:before { content: "<details>" !important; }
+.easeBM_inspector_all details:after, .easeBM_inspector_html5 details:after { content: "</details>" !important; }
+.easeBM_inspector_all output:before, .easeBM_inspector_html5 output:before { content: "<output>" !important; }
+.easeBM_inspector_all output:after, .easeBM_inspector_html5 output:after { content: "</output>" !important; }
+.easeBM_inspector_all nav:before, .easeBM_inspector_html5 nav:before,
+.easeBM_inspector_all nav:after, .easeBM_inspector_html5 nav:after,
+.easeBM_inspector_all section:before, .easeBM_inspector_html5 section:before,
+.easeBM_inspector_all section:after, .easeBM_inspector_html5 section:after,
+.easeBM_inspector_all header:before, .easeBM_inspector_html5 header:before,
+.easeBM_inspector_all header:after, .easeBM_inspector_html5 header:after,
+.easeBM_inspector_all footer:before, .easeBM_inspector_html5 footer:before,
+.easeBM_inspector_all footer:after, .easeBM_inspector_html5 footer:after,
+.easeBM_inspector_all banner:before, .easeBM_inspector_html5 banner:before,
+.easeBM_inspector_all banner:after, .easeBM_inspector_html5 banner:after,
+.easeBM_inspector_all aside:before, .easeBM_inspector_html5 aside:before,
+.easeBM_inspector_all aside:after, .easeBM_inspector_html5 aside:after,
+.easeBM_inspector_all article:before, .easeBM_inspector_html5 article:before,
+.easeBM_inspector_all article:after, .easeBM_inspector_html5 article:after,
+.easeBM_inspector_all figure:before, .easeBM_inspector_html5 figure:before,
+.easeBM_inspector_all figure:after, .easeBM_inspector_html5 figure:after,
+.easeBM_inspector_all details:before, .easeBM_inspector_html5 details:before,
+.easeBM_inspector_all details:after, .easeBM_inspector_html5 details:after,
+.easeBM_inspector_all output:before, .easeBM_inspector_html5 output:before,
+.easeBM_inspector_all output:after, .easeBM_inspector_html5 output:after {
+    background: none repeat scroll 0 0 #ffaaff !important;
+}
+.easeBM_inspector_all *[role]:before, .easeBM_inspector_role *[role]:before {
+    content: "ARIA" !important; 
+    background: none repeat scroll 0 0 #ffaaff !important;
+}
+.easeBM_inspector_all *[lang]:before, .easeBM_inspector_lang *[lang]:before {
+    content: "LANG" !important; 
+    background: none repeat scroll 0 0 #88FF88 !important;
+}
+.easeBM_inspector *:before,
+.easeBM_inspector *:after {
+    background: none repeat scroll 0 0 transparent !important;
+    border: medium none !important;
+    box-shadow: none !important;
+    clear: none !important;
+    float: none !important;
+    font-style: normal !important;
+    font-variant: normal !important;
+    font-weight: normal !important;
+    height: auto !important;
+    letter-spacing: 0 !important;    
+    opacity: 1 !important;
+    position: static !important;
+    text-align: left !important;
+    text-decoration: none !important;
+    text-shadow: none !important;
+    text-transform: none !important;
+    width: auto !important;
+    margin: 1px !important;
+    padding: 1px !important;
+    display: inline !important;
+    font-family: Monaco,Menlo,Consolas,"Courier New",monospace !important;
+    font-size: 13px !important;
+    line-height: 15px !important;
+    z-index: 2147483643 !important;
+    border-radius: 3px 3px 3px 3px !important;
+    box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3) !important;    
+	color: #000 !important;            
+}

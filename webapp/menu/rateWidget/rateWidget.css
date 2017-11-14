@@ -1,0 +1,62 @@
+.easeBM_rateWidget {
+	height: 10em;
+	color: #ccc;
+	font-weight: bold;
+}
+
+div.easeBM_rateWidget_rate {
+	font-size: 10em!important;
+	float: left;
+	line-height: 1em;
+	text-align: right;
+	/*width: 2.6em;*/
+}
+
+.easeBM_rateWidget_bar {
+	height: 10em;
+	float: left;
+    margin-left: 1em;
+}
+
+.easeBM_rateWidget_bar>div {	
+	background: #fff;	
+    border-top: 0.4em solid #fff;
+    float: left;
+    height: 7.2em;
+    margin-top: 1.4em;
+    position: relative;
+    width: 3.8em;	
+    border-radius: 0.5em;
+    -webkit-border-radius: 0.5em;
+    -moz-border-radius: 0.5em;
+}
+
+.easeBM_rateWidget_bar div div {
+	background:  #ff6600; /* Old browsers */
+    background: -moz-linear-gradient(top,  #ff6600 0%, #d63300 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ff6600), color-stop(100%,#d63300)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #ff6600 0%,#d63300 100%); /* Chrome10+,Safari5.1+ */
+    background: -ms-linear-gradient(top,  #ff6600 0%,#d63300 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #ff6600 0%,#d63300 100%); /* W3C */
+
+    bottom: 0.2em;
+    height: 0;
+    margin-left: 0.22em;    
+    position: absolute;
+    width: 3.35em;
+    border-radius: 0.5em;
+    -webkit-border-radius: 0.5em;
+    -moz-border-radius: 0.5em;
+}
+
+.easeBM_rateWidget_caption {
+	float: left;
+	margin-left: 1em;
+}
+
+.easeBM_rateWidget_caption span {	
+    clear: left!important;
+    float: left;
+    margin-bottom: 1em;
+    padding-top: 1.15em;
+}

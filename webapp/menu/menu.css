@@ -1,0 +1,294 @@
+body {
+	-webkit-transition: margin-top 500ms cubic-bezier(0.350, 0, 0.220, 1); /* older webkit */
+	-webkit-transition: margin-top 500ms cubic-bezier(0.350, -0.020, 0.220, 1.370);
+   	-moz-transition: margin-top 500ms cubic-bezier(0.350, -0.020, 0.220, 1.370);
+    -ms-transition: margin-top 500ms cubic-bezier(0.350, -0.020, 0.220, 1.370);
+    -o-transition: margin-top 500ms cubic-bezier(0.350, -0.020, 0.220, 1.370);
+    transition: margin-top 500ms cubic-bezier(0.350, -0.020, 0.220, 1.370); /* custom */
+
+	-webkit-transition-timing-function: cubic-bezier(0.350, 0, 0.220, 1); /* older webkit */
+	-webkit-transition-timing-function: cubic-bezier(0.350, -0.020, 0.220, 1.370);
+   	-moz-transition-timing-function: cubic-bezier(0.350, -0.020, 0.220, 1.370);
+    -ms-transition-timing-function: cubic-bezier(0.350, -0.020, 0.220, 1.370);
+    -o-transition-timing-function: cubic-bezier(0.350, -0.020, 0.220, 1.370);
+    transition-timing-function: cubic-bezier(0.350, -0.020, 0.220, 1.370); /* custom */
+
+    position: static !important;
+}
+
+body.easeBM_displayed {
+	margin: 15em 0 0 0;
+	font-size: 1em;
+}
+
+select {
+	outline: none; 	/* remove chrome yellow outline */
+}
+
+select:focus {	
+	outline: thin dotted #666 !important;
+}
+
+.easeBM_mainMenu * {
+	font-family: Arial,Helvetica,sans-serif !important;	
+}
+.easeBM_mainMenu a,
+.easeBM_mainMenu a:visited,
+.easeBM_mainMenu a:active,
+.easeBM_mainMenu a:focus,
+.easeBM_mainMenu a:hover {
+	text-decoration: none !important;
+	color: #fff !important;
+	background: transparent !important;
+	border: 0 !important;
+	text-shadow: none !important;
+	cursor: pointer !important;
+}
+
+.easeBM_mainMenu {
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 2147483644;	
+	width: 100%;
+	height: 15em;
+	background: #4F4E4F !important;
+    border-bottom: 1px solid #737273;    
+    text-shadow: none !important;
+    font: 100% normal Arial,Helvetica,sans-serif !important;
+    letter-spacing: normal !important;
+    position: fixed;
+}
+
+.easeBM_mainMenu,
+.easeBM_mainMenu a,
+.easeBM_mainMenu div,
+.easeBM_mainMenu span, 
+.easeBM_mainMenu select, 
+.easeBM_mainMenu li,
+.easeBM_mainMenu ul {
+	font-family: Arial,Helvetica,sans-serif !important;	
+	font-size: inherit !important;
+	clear: none !important;	
+	color: #fff !important;
+	background: transparent;
+	background-color: transparent;
+	line-height: inherit;
+}
+
+.easeBM_menuHeader {
+	font-weight: bold;
+	font-size: inherit;
+	background:  #3a3a3a !important; /* Old browsers */
+	background: -moz-linear-gradient(top,  #272727 0%, #4C4C4C 100%) !important; /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#272727), color-stop(100%,#4C4C4C)) !important; /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #272727 0%,#4C4C4C 100%) !important; /* Chrome10+,Safari5.1+ */
+	background: -ms-linear-gradient(top,  #272727 0%,#4C4C4C 100%) !important; /* IE10+ */
+	background: linear-gradient(to bottom,  #272727 0%,#4C4C4C 100%) !important; /* W3C */
+    width: 100%;
+	height: 2.5em;
+	outline: none;	
+}
+
+.easeBM_menuHeader ul {
+	list-style-image: none !important;
+	list-style-type: none !important;
+	min-width: 34em;
+}
+
+.easeBM_menuHeader ul,
+.easeBM_menuHeader li {
+	height: inherit !important;
+	line-height: 2.5em !important;
+	margin: 0 !important;
+	padding: 0 !important;
+	font-size: inherit !important;	
+}
+
+.easeBM_menuHeader li:before, .easeBM_menuHeader li:after,
+.easeBM_menuHeader ul:before, .easeBM_menuHeader ul:after {
+	display: none !important;
+}
+
+.easeBM_menuHeader ul:first-child {
+	/*margin-left: 4em !important;*/
+}
+
+.easeBM_menuHeader li {
+	float: left !important;
+	width: 6em !important;
+	list-style: none !important;
+	text-align: center !important;
+}
+
+.easeBM_menuHeader li a{
+	outline: none !important;
+	color: #E6E6E6 !important;
+	text-shadow:0 1px 3px rgba(0,0,0,0.8),0 1px 0 rgba(255,255,255,0.3) !important;
+	line-height: inherit !important;
+	display: inline-block !important;
+	width: inherit !important;
+	padding: 0 !important;
+	text-align: center !important;
+	font-size: 1em !important;
+	font-weight: bold !important;
+}
+
+.easeBM_menuHeader li a:focus,
+.easeBM_menuHeader li:hover,
+.easeBM_menuHeader li.selected,
+.easeBM_menuHeader li.selected a,
+.easeBM_pageContainer {
+	color: #fff !important;
+	background: #212121 !important;
+	text-decoration: none !important;
+	height: inherit !important;
+}
+
+.easeBM_pageContainer {
+	border-bottom: 1px solid #797879;
+	height: 12em !important;
+	overflow: hidden;
+	clear: both;
+	box-shadow: 0 0.1em 1.5em 0 #000000 inset;
+}
+
+.easeBM_menuHeader a {
+	color:#FFF !important;
+	text-decoration: none !important;
+	outline: none !important;
+}
+
+.easeBM_pageList {
+	height: inherit;
+}
+
+.easeBM_page {
+	text-align: left;	
+	height: inherit;		
+}
+
+.easeBM_page ul {
+	padding: 2em !important;
+	margin: 0 !important;
+	list-style-image: none !important;
+	list-style-type: none !important;
+}
+
+.easeBM_page li {
+	background-image:url("../images/chevron.png") !important;
+	background-repeat: no-repeat !important;
+	padding-left: 1em !important;
+	list-style-type: none !important;
+	list-style-image: none !important;
+	background-size: 0.4em !important;
+	background-position: 0	0.3em !important;
+    margin-bottom: 0.8em !important;
+    width: 16em !important;
+    float: left !important;
+}
+
+.easeBM_page li a:focus{
+    outline: thin dotted #AA6600 !important;
+    outline-offset: 0 !important;
+}
+
+.easeBM_page li.easeBM_disabled a{
+	color: #bbb !important;
+	cursor: default !important;
+}
+
+.easeBM_orangeLogo {
+	/*background-image: url("../images/logo.gif") !important;*/
+	/*background-repeat: no-repeat !important;*/
+	/*background-size: 2em !important;*/
+    background: none;
+	height: 2em;
+	width: 2em;
+	float: left;
+	margin: 0.25em 1em 0.25em 1em;
+	padding: 0;
+}
+
+/* Alternative page */
+#easeBM_toolsAlternative>div {
+	margin: auto !important;
+}
+
+#easeBM_toolsAlternative .easeBM_pageContent {
+	width: 100%;
+	min-width: 70em;
+	margin: 1em auto auto auto !important;	
+	float: left;	
+}
+
+#easeBM_toolsAlternative .easeBM_pageContent>div {
+	float: left !important;
+}
+
+#easeBM_toolsAlternative .easeBM_pageContent button {
+	clear: right !important;
+	float: left !important;
+	margin-right: 2em !important;
+}
+
+#easeBM_toolsAlternative .easeBM_pageMessage {
+	margin-left: 2em;
+	margin-top: 0.8em;
+}
+
+#easeBM_toolsAlternative .easeBM_pageMessage>span {
+	font-size: 1.8em !important;
+	font-weight: bold !important;
+	float: right !important;
+	margin-bottom: 0.8em !important;
+}
+
+#easeBM_toolsAlternative .easeBM_rateWidget_rate {
+	width: 2.8em;
+}
+
+/* Simple page */
+.easeBM_simplePage {
+	padding: 1em 0 0 2em;
+}
+
+.easeBM_simplePage button {	
+	float: left !important;
+	margin: 1.3em 2em 0 0 !important;
+}
+
+.easeBM_simplePage {
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;	
+}
+
+.easeBM_simplePage>span {
+	font-size: 1.8em !important;
+	font-weight: bold !important;
+	margin-bottom: 0.8em !important;
+	cursor: default !important;
+}
+
+.easeBM_buttons {
+	clear: both;
+}
+
+.easeBM_highlight {
+	outline: 0.2em dotted #FF0000;
+}
+
+.easeBM_transparent {
+	opacity: 0;
+}
+
+#easeBM_helpSection a, #easeBM_aboutSection a{
+	text-decoration: underline !important;
+}
+
+#easeBM_helpSection .easeBM_page div {
+	margin-top: 0.5em;
+	font-weight: bold;
+}

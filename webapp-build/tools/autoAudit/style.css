@@ -1,0 +1,55 @@
+#easeBM_autoAudit {
+    padding: 0.5em;
+    min-width: 53em;
+}
+#easeBM_autoAuditBackButton {
+    float: left !important;
+    margin-right: 0.5em !important;
+}
+#easeBM_autoAuditContent {
+    float: left;    
+    height: 10.6em;
+    width: 42em;
+    margin-right: 0.5em;
+    border-radius: 0.4em !important;
+    background: #323232;
+    padding: 0.2em;
+}
+#easeBM_autoAuditContent a:hover,
+#easeBM_autoAuditContent a:focus {
+	text-decoration: underline !important;
+}
+.easeBM_autoAuditTitle {
+    font-size: 1.2em !important;
+    font-weight: bold !important;
+    margin: 0.2em 0.2em 0 0.2em !important;
+}
+.easeBM_paragraph {
+    padding-left: 1em;
+    margin-bottom: 1em;
+}
+#easeBM_autoAudit .easeBM_toolbar button {	
+	width: 8em;
+	float: left;
+	clear: left;
+	margin-bottom: 0.5em;
+}
+#easeBM_autoAudit .easeBM_toolbar {
+	float: left;
+}
+.easeBM_autoAudit_valid:before {
+	content:"\2714";
+	color: #09E000;
+	margin-right: 0.3em;
+}
+.easeBM_autoAudit_warning:before {
+	content:"?";
+	color: #E0E000;
+	font-weight: bold;
+	margin-right: 0.3em;
+}
+.easeBM_autoAudit_error:before {
+	content:"\2716";
+	color: #FF5555;
+	margin-right: 0.3em;
+}

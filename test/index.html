@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link href="http://localhost/easeBookmarklet/webapp/style.css" type="text/css" rel="stylesheet">
+	<script id="easeBookmarklet" src="http://localhost/easeBookmarklet/webapp/require-jquery.js?" data-main="http://localhost/easeBookmarklet/test/main.js"></script>		
+	<style>
+		body {
+			font-size: 16px;
+			background: #333;
+		}
+
+		#form {
+			clear: both;
+			float: left;
+			margin: 2em 0 0 15em;
+		}
+
+		.easeBM_rateWidget {
+			clear: both;
+		}
+
+	</style>
+<head>
+
+<body>
+	
+	<div class="widget"></div>
+	<div id="form">
+		<input type="text" id="pourcent" value="80">
+		<input type="button" value="Update !" onClick='$(".widget").first().easeBM_rateWidget("update", $("#pourcent").val())'>
+	</div>
+
+	<div class="widget"></div>
+	<div id="form2">
+		<input type="text" id="pourcent2" value="80">
+		<input type="button" value="Update !" onClick='$(".easeBM_rateWidget").slice(1).easeBM_rateWidget("update", $("#pourcent2").val())'>
+	</div>	
+	
+</body>
+
+</html>

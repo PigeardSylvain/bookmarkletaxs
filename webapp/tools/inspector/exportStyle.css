@@ -1,0 +1,9 @@
+body {
+	margin: 1em;	
+	font-family: arial, sans-serif;
+	border-top: 0.1em solid #ddd;
+}
+
+div {
+	border-bottom: 0.1em solid #ddd;
+}

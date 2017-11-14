@@ -1,0 +1,29 @@
+body {
+	margin: 1em;	
+	font-family: arial, sans-serif;	
+	font-weight: bold;
+}
+.easeBM_paragraph {
+    padding-left: 1em;
+    margin-bottom: 1em;
+    font-weight: normal;
+}
+.easeBM_autoAudit_valid:before {
+	content:"\2714";
+	color: #09E000;
+	margin-right: 0.3em;
+}
+.easeBM_autoAudit_warning:before {
+	content:"?";
+	color: #f0b000;
+	font-weight: bold;
+	margin-right: 0.3em;
+}
+.easeBM_autoAudit_error:before {
+	content:"\2716";
+	color: #FF5555;
+	margin-right: 0.3em;
+}
+.scrollbar {
+	display: none;
+}
